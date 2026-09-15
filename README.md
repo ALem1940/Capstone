@@ -20,7 +20,7 @@ dataset African American Inventors and Scientists
 
 ### Output
 Fields will show:
-age, Name, Date of birth/death, Occupation(s), Inventions/accomplishments.
+id, Name, Date of birth/death, Occupation(s), Inventions/accomplishments.
 
 ## The Problem
 1. Unable to find information about black scientists and inventors.
