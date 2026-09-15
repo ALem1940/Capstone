@@ -19,6 +19,8 @@ id, Name, Date of birth/death, Occupation(s), Inventions/accomplishments
 <p>A visitor clicks search and the page displays who did what.</p>
 
 ### Outputs
+Fields will show:
+age, Name, Date of birth/death, Occupation(s), Inventions/accomplishments.
 
 ## The Problem
 1. Unable to find information about black scientists and inventors.
