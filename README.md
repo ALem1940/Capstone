@@ -3,8 +3,8 @@ dataset African American Inventors and Scientists
 
 ### Data fields
 
-|id|Name|Date of birth|death| Occupation(s)| Inventions/accomplishment|
-| --- | --- | --- | --- | ---| -- |
+|id|Name|Date of birth/death| Occupation(s)| Inventions/accomplishment|
+| --- | --- | --- | --- | ---|
 | 24 | Brady, St. Elmo | 1884–1966 | Chemist | Published three scholarly abstracts in Science | collaborated on a paper published in the Journal of Industrial and Engineering Chemistry|
 
 ## The plan
