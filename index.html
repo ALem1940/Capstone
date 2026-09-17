@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>African American Inventors and Scientists</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
-	<link rel="stylesheet" href="css/style.css">		
-	<script src="script.js" defer></script>
-	<!--How to get the colors you want
-	<style>
-		section{
+<html lang="en" data-theme= "dark">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>African American Inventors and Scientists</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+		<link rel="stylesheet" href="css/hero.css">
+		<link rel="stylesheet" href="css/card.css">
+		<link rel="stylesheet" href="css/style.css">		
+		<script src="script.js" defer></script>
+		<!--How to get the colors you want
+		<style>
+			section{
 			background-color: #B16B09}
-	</style>-->
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href=>hOmE</a></li>
-				<li><a href=>sCiEnTiStS</a></li>
-				<li><a href=>iNvEnToRs</a></li>
-			</ul>
-		</nav>
-	</header>
-    <main>
-		<section class="hero">
-			<h1>Black Innovators Past & Present</h1>
-			<p>"A lot of kids growing up today aren't told that you can be whatever you want to be. There may be obstacles, but there are no limits." </p>
-			<p>-Mark E. Dean, co-creator of the IBM personal computer</p>
-			<button class="inputBtn">iNvEnToRs</button>
-			<button class="inputBtn">sCiEnTiSts</button>
-		</section>
-		<section id="output-container">
-			<div class="outputCard">
-				<h2 id="outputName"></h2>
-				<p id="outputOccupation"></p>
+		</style>-->
+	</head>
+	<body>
+		<header>
+		
+		</header>
+		<main>
+			<nav>
+				<ul>
+					<li><a href="index.html">hOmE</a></li>
+					<li><a href="scientists">sCiEnTiStS</a></li>
+					<li><a href="inventors">iNvEnToRs</a></li>
+				</ul>
+			</nav>
+			<div class="hero">
+				<h1>Black Innovators Past & Present</h1>
+				<p>"A lot of kids growing up today aren't told that you can be whatever you want to be. There may be obstacles, but there are no limits." </p>
+				<p>-Mark E. Dean, co-creator of the IBM personal computer</p>
 			</div>
-		</section>
 		
-		<img src="images/black-white-oldschool.jpg" alt="black and white colored pic of black boys eating in school cafeteria">
-		<img src="images/black-light-bulb.jpg" alt="black light bulb laying on concrete grayish-white floor">
-		<img src="images/black-kid-girl-graduate.jpg" alt="young black girl graduating in cap and gown from elmentary school">
+			<!--DON'T FORGET TO ADD AN ID HERE. Search and Results borrowed from chp7-p2 question 5!!-->
+			<section id="search">
+			
+			<!--What I want to happen: once the btn/clicked a hidden form w/ 2 options appear for each choice as the input-->
+					<button class="inputBtn">iNvEnToRs</button>
+					<input id="inventorsBtn" type="text" placeholder="pick an enthusiast">
+					<button class="inputBtn">sCiEnTiSts</button>
+					<input id="inventorsBtn" type="text" placeholder="pick an enthusiast">
+					<p><strong>Downloading</strong>: hIsToRy aLrEaDy mAdE vS hIsToRy iN tHe mAkInG.....</p>
+			</section id="results">
+			
+			<section id="output-container">
+				<div class="outputCard">
+					<h2 id="outputName"></h2>
+					<p id="outputOccupation"></p>
+				</div>
+			</section>
+		
+			<img src="images/black-white-oldschool.jpg" alt="black and white colored pic of black boys eating in school cafeteria">
+			<img src="images/black-light-bulb.jpg" alt="black light bulb laying on concrete grayish-white floor">
+			<img src="images/black-kid-girl-graduate.jpg" alt="young black girl graduating in cap and gown from elmentary school">
 	  
 		
 		
 	  
-	</main>
-	<footer>cReAtEd bY: Ashanti Lemonia (Tsasa)</footer>
+		</main>
+		<footer>cReAtEd bY: Ashanti Lemonia (Tsasa)</footer>
 	
-</body>
-<script src="script.js"></script>
+	</body>
+	<script src="script.js"></script>
 </html>

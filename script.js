@@ -12,7 +12,7 @@ async function getinventors() {
 	const data = await response.json();
 	console.log(data);
 	name.textContent = data.records[0].Name
-jobs.textContent = data.records[0]["Date of birth / death"]
+jobs.textContent = data.records[0]["Occupation(s)"]
 };
 
 getinventors();
