@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
 		<link rel="stylesheet" href="css/hero.css">
 		<link rel="stylesheet" href="css/card.css">
+		<link rel="stylesheet" href="css/output-container.css">
 		<link rel="stylesheet" href="css/style.css">		
 		<script src="script.js" defer></script>
 		<!--How to get the colors you want
@@ -32,28 +33,36 @@
 				<p>"A lot of kids growing up today aren't told that you can be whatever you want to be. There may be obstacles, but there are no limits." </p>
 				<p>-Mark E. Dean, co-creator of the IBM personal computer</p>
 			</div>
-		
-			<!--DON'T FORGET TO ADD AN ID HERE. Search and Results borrowed from chp7-p2 question 5!!-->
-			<section id="search">
-			
-			<!--What I want to happen: once the btn/clicked a hidden form w/ 2 options appear for each choice as the input-->
-					<button class="inputBtn">iNvEnToRs</button>
-					<input id="inventorsBtn" type="text" placeholder="pick an enthusiast">
-					<button class="inputBtn">sCiEnTiSts</button>
-					<input id="inventorsBtn" type="text" placeholder="pick an enthusiast">
-					<p><strong>Downloading</strong>: hIsToRy aLrEaDy mAdE vS hIsToRy iN tHe mAkInG.....</p>
-			</section id="results">
 			
 			<section id="output-container">
+				<div id="learnMore" style="display: block">
+					<h2>Learn More about Unknown Heros</h2>
+					<p>Click to the button to discover Hidden but not forgotten figures in our history.</p>
+				</div>
 				<div class="outputCard">
 					<h2 id="outputName"></h2>
+					<p id ="outputLifeSpan"></p>
 					<p id="outputOccupation"></p>
+					<p id="outputInventions"></p>
+					
 				</div>
 			</section>
 		
-			<img src="images/black-white-oldschool.jpg" alt="black and white colored pic of black boys eating in school cafeteria">
-			<img src="images/black-light-bulb.jpg" alt="black light bulb laying on concrete grayish-white floor">
-			<img src="images/black-kid-girl-graduate.jpg" alt="young black girl graduating in cap and gown from elmentary school">
+			<section id="search">
+				<div class="btn-container">
+					<button id="inputBtn">iNvEnToRs/sCiEnTiSts</button>
+					<button id ="nextBtn" style="display: none">mOrE iNvEnToRs/sCiEnTiSts</button>
+				</div>
+				<p><strong>Downloading</strong>: hIsToRy aLrEaDy mAdE vS hIsToRy iN tHe mAkInG.....</p>
+			</section>
+			
+		
+			
+			<div class="photos">
+				<img src="images/black-white-oldschool.jpg" alt="black and white colored pic of black boys eating in school cafeteria">
+				<img src="images/black-light-bulb.jpg" alt="black light bulb laying on concrete grayish-white floor">
+				<img src="images/black-kid-girl-graduate.jpg" alt="young black girl graduating in cap and gown from elmentary school">
+			</div>
 	  
 		
 		

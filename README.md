@@ -27,6 +27,11 @@ id, Name, Date of birth/death, Occupation(s), Inventions/accomplishments.
 2. Give more accurate information on bios, timelines, and inventions.
 3. Help younger generations to identify with their true history and have more self confidence.
 
+## Attributions
+1. Image 1/black-white-oldschool/library of congress/unsplash.com
+2. Image 2/black-light-bulb/Kelly Sikkema/unsplash.com
+3. Image 3/black-kid-girl-graduate.jpg/Sipho Ngondo/unsplash.com
+
 ## My Team
 Accountability Partners
 1. @BabySodaCodex
