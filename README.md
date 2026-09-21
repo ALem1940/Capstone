@@ -10,6 +10,11 @@ dataset African American Inventors and Scientists
 ## The plan
 ![My wireframe](wireframe.png)
 
+## What Changed 
+<p> The plan had 3 links, 2 click buttons, and an output section for the properties which gave detailed information on scientists and inventors. What changed was that instead of 2 visible 
+buttons straigt away, one button is hidden until the first is clicked. This was added to take away the ability to choose what should be the second clicked button first.Everythingis the same as the plan.
+With more time though, I would like to add actual pages for the links in the nav.</p>
+
 ### Sections
 <p>A visitor will see a button to click for a scientists.</p>
 <p>A visitor will see a button to click for black inventors.</p>
